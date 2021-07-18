@@ -1,6 +1,6 @@
 name: change_notifier_builder
 description: A widget whose content stays synced with a ChangeNotifier.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/crizant/change_notifier_builder
 
 environment:
