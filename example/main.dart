@@ -48,7 +48,7 @@ class MyHomePage extends StatelessWidget {
               'You have pushed the button this many times:',
             ),
             ChangeNotifierBuilder(
-              // supply the `ChangeNotifier` model,
+              // supply the instance of `ChangeNotifier` model,
               // whether you get it from the build context or anywhere
               notifier: _counterModel,
               // this builder function will be executed,
