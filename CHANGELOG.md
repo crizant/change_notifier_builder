@@ -1,3 +1,7 @@
+## 1.0.2 - 2021-7-18
+
+* Updated package description for the requirement in pub.dev.
+
 ## 1.0.1 - 2021-7-18
 
 * Updated readme.
