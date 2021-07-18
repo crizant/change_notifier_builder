@@ -35,7 +35,7 @@ class CounterModel extends ChangeNotifier {
 }
 ```
 
-Then in the build method:
+Then in the build method of your widget:
 
 ```dart
 ChangeNotifierBuilder(
