@@ -1,6 +1,6 @@
 # change_notifier_builder
 
-A widget whose content stays synced with a [`ChangeNotifier`](https://api.flutter.dev/flutter/foundation/ChangeNotifier-class.html).
+A widget builder whose content stays synced with one or more [`ChangeNotifier`](https://api.flutter.dev/flutter/foundation/ChangeNotifier-class.html)s.
 
 ## What is this?
 
@@ -54,6 +54,10 @@ ChangeNotifierBuilder(
   },
 )
 ```
+
+## Want to listen to a list of `ChangeNotifier`s?
+
+Use `MultiChangeNotifierBuilder` instead!
 
 ## Contributions
 
