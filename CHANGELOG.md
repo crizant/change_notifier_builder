@@ -1,3 +1,7 @@
+## 1.1.1 - 2021-7-25
+
+- Updated readme.
+
 ## 1.1.0 - 2021-7-25
 
 - Added `MultiChangeNotifierBuilder`.

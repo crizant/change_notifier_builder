@@ -10,13 +10,15 @@ This is basically an [`AnimatedBuilder`](https://api.flutter.dev/flutter/widgets
 
 ## Why you created this?
 
-I created this package for 3 reasons.
+I created this package for 4 reasons.
 
 1. For the purpose of state management, `ChangeNotifierBuilder` is a more reasonable and readable name than `AnimatedBuilder`, for a builder widget.
 
 2. Sometimes our model is not yet ready (i.e. equals `null`). In this case if you use `AnimatedBuilder` it throws "animation cannot be null" exception. However if you use `ChangeNotifierBuilder`, the runtime value of `notifier` can be `null`.
 
 3. The `builder` method provides you the `T notifier` object as a parameter, which is a bit more user-friendly.
+
+4. You can’t listen to multiple `ChangeNotifier`s with `AnimatedBuilder`, so I created `MultiChangeNotifierBuilder` for this purpose.
 
 ## Example
 

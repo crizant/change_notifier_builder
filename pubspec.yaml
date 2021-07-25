@@ -2,7 +2,7 @@ name: change_notifier_builder
 description: >
   A widget whose content stays synced with a ChangeNotifier.
   Designed to be used with a ChangeNotifier model for state management.
-version: 1.1.0
+version: 1.1.1
 homepage: https://github.com/crizant/change_notifier_builder
 
 environment:
