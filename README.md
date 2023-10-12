@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Please migrate to [ListenableBuilder](https://api.flutter.dev/flutter/widgets/ListenableBuilder-class.html) or [MultiListenableBuilder](https://pub.dev/packages/multi_listenable_builder) instead.
+
 # change_notifier_builder
 
 A widget builder whose content stays synced with one or more [`ChangeNotifier`](https://api.flutter.dev/flutter/foundation/ChangeNotifier-class.html)s.
